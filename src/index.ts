@@ -45,6 +45,7 @@ class AM2320HumiditySensor implements AccessoryPlugin {
         try {
           const sensorData: SensorData = await readSensorData();
           this.humidity = sensorData.humidity;
+          log.info(`${this.humidity}%`);
         } catch (err) {
           this.log.error(err);
         } finally {
@@ -99,6 +100,7 @@ class AM2320TemperatureSensor implements AccessoryPlugin {
         try {
           const sensorData: SensorData = await readSensorData();
           this.temperature = sensorData.temperature;
+          log.info(`${this.temperature}°C`);
         } catch (err) {
           this.log.error(err);
         } finally {

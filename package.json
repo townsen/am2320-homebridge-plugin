@@ -2,15 +2,15 @@
   "private": false,
   "displayName": "Homebridge AM2320 Plugin",
   "name": "homebridge-am2320-plugin",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Provides the AM2320 Sensor as accessories to your homebridge.",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:zvaehn/am2320-homebridge-plugin.git"
+    "url": "git@github.com:townsen/am2320-homebridge-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/townsen/am2320-homebridge-plugin/issues"
   },
   "engines": {
     "node": ">=10.17.0",
